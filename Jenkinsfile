@@ -1,11 +1,6 @@
 
 pipeline {
     agent any
-
-    options {
-        timestamps()
-    }
-
     stages {
 
         stage('1. Checkout') {
